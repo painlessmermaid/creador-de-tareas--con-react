@@ -9,8 +9,8 @@ function TaskCard({ task }) {
       <h1 className="text-xl font-bold capitalize ">{task.title}</h1>
       <p className="text-gray-500 text-sm">{task.description}</p>
       <button
-        className="bg-red-500 px-2 py1 rounded-md mt-4 hover:bg-yellow-300 text-black"
-        onClick={() => de + letTask(task.id)}
+        className="bg-red-500 px-2 py1 rounded-md mt-4 hover:bg-yellow-300 text-balack"
+        onClick={() => deletTask(task.id)}
       >
         Eliminar tarea
       </button>
